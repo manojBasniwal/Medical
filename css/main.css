@@ -1,0 +1,448 @@
+.section-bg-color{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: rgb(247,247,247);
+}
+.header-section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(179,177,178);
+}
+.btn-container a{
+    color: white;
+    text-decoration: none;
+}
+.icon-container{
+    display: flex;
+    justify-content: end; 
+}
+.icon-container i{
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+@media screen and (max-width:576px){
+    .btn-container{
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .icon-container{
+        display: flex;
+        justify-content: center; 
+    }
+}
+.carousel-section .carousel-inner img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-section .carousel-control-left{
+    width: 35px;
+    height: 45px;
+    background-color: rgb(179,177,178);
+    padding: 13px 10px;
+    opacity: unset;
+    top: calc(100% - 50%);
+}
+.carousel-section .carousel-control-left:hover{
+    background-color: rgb(68,137,254);
+}
+.carousel-section .carousel-caption{
+    top: calc(100% - 70%);
+    text-align: unset;
+}
+.carousel-section .carousel-caption h1{
+     font-family: 'Raleway', sans-serif;
+     font-size: 50px;
+     margin-bottom: 60px;
+}
+.carousel-section .carousel-caption button{
+    background-color: white;
+    /* margin-right: 10px; */
+}
+.carousel-section .carousel-caption button:hover{
+    background-color:rgb(68,137,254);
+    color: white;
+}
+@media screen and (max-width:768px){
+    .carousel-section .carousel-caption{
+        text-align: center;
+    }
+    .carousel-section .carousel-caption h1{
+        font-size: 40px;
+        margin-bottom: 50px;
+   }
+}
+.carousel-section .nav-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+    background-color:rgb(179,177,178);
+    border-top: 1px solid white;
+}
+.logo img{
+    width: 35px;
+    margin-right: 5px;
+}
+.carousel-section .nav-container .nav-link{
+    color: white!important;
+}
+.carousel-section .nav-container .nav-link span{
+    padding-bottom: 15px;
+}
+.carousel-section .nav-container .nav-link span:hover{
+    color: rgb(68,137,254);
+    border-bottom: 2px solid rgb(68,137,254);
+}
+.carousel-section .nav-container .nav-link .fa:hover{
+    color: rgb(68,137,254);
+}
+.extra-div .container .row{
+    position: relative;
+    bottom: 165px;
+}
+.extra-div .container .emergency-case{
+    padding: 30px;
+    color: white;
+    background-color: rgb(119,169,254);
+}
+.extra-div .container .doctors-timetable{
+    padding: 30px;
+    color: white;
+    background-color: rgb(68,137,254);
+}
+.extra-div .container .opening-hours{
+    padding: 30px;
+    color: white;
+    background-color: rgb(57,113,210);
+}
+.extra-div .container .opening-hours div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.extra-div .container .row button{
+    color: white;
+    border: 1px solid white;
+}
+.extra-div .container .row button:hover{
+    color: black;
+    border: 1px solid black;
+}
+@media screen and (max-width:768px){
+    .extra-div .container .row{
+        bottom: 0;
+        top: 30px;
+    } 
+}
+.medical-section .container .row{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.medical-section .container .row .col-12 .box{
+    padding: 30px 20px;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
+}
+.medical-section .container .row .box .medical-icon{
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 15px;
+}
+/* .you-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(247,247,247);
+} */
+.you-section .container .row .card{
+    border-radius: unset;
+    box-shadow: 0 0 9px 2px rgba(0,0,0,0.2);
+}
+.you-section .container .row .card .card-img{
+    padding: 10px 20px 0px;
+    background-color: rgb(225,228,233);
+}
+.you-section .container .row .card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+.you-section .container .row .card .card-body .btn{
+    color: rgb(57,113,210);
+    border: 1px solid rgb(57,113,210);
+}
+.you-section .container .row .card .card-body .btn:hover{
+    color: white;
+    background-color: rgb(57,113,210);
+}
+.you-section .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    opacity: 1;
+}
+.you-section .carousel-indicators .active{
+    background-color: blue;
+    opacity: 1;
+}
+.score-card-section{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/score-card-img.jpg");
+}
+.score-card-text{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+    background-color: rgba(0,0,245,.25);
+}
+.our-section{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.our-section .container .departments-section .departments-text{
+    padding: 28px 20px;
+    background-color: rgb(68,137,254);
+}
+.our-section .container .departments-section .departments-text .btn{
+    color: white;
+    border: 1px solid white;
+}
+.our-section .container .departments-section .departments-text p{
+    margin: unset;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.our-section .container .our-carousel-section .row .card{
+    border-radius: unset;
+    box-shadow:  0 0 6px 2px rgba(0, 0, 0, .2);
+}
+.our-section .container .our-carousel-section .row h4{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 14px;
+    border-bottom: 1px solid gray;
+}
+.our-section .container .our-carousel-section .our-carousel-heading button{
+    width: 30px;
+    height: 30px;
+    border: unset;
+    color: white;
+    background-color: rgb(221,233,255);
+}
+.our-section .container .our-carousel-section .our-carousel-heading button:hover{
+    background-color: rgb(68,137,254);
+}
+/* .customer-section .container .carousel-item .row .box-img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+    border-radius: 50%;
+} */
+.customer-section .container .carousel-item .row .box{
+    background-color: white;
+    margin-top: 60px;
+    padding: 0 20px 20px;
+    box-shadow:  0 0 6px 2px rgba(0, 0, 0, .2);
+}
+.customer-section .container .carousel-item .row .box-img{
+    width: 90px;
+    height: 90px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.1);
+    
+    bottom: 50px;
+}
+.customer-section .container .carousel-item .row .box-img img{
+    width: 83px;
+    height: 83px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.customer-section .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    opacity: 1;
+}
+.customer-section .carousel-indicators .active{
+    background-color: blue;
+    opacity: 1;
+}
+.medical-news{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.medical-news .container .carousel-item .row .card{
+    border-radius: unset;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+}
+.medical-news .container .carousel-item .row .card .card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+.medical-news .container .carousel-item .row .card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.medical-news .container .carousel-item .row .card .card-text{
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+/* .medical-news .container .carousel-item .row .card .card-body div{
+    text-decoration: none;
+} */
+.medical-news .container .carousel-item .row .card .card-body div img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,.3);
+}
+.medical-news .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    opacity: 1;
+}
+.medical-news .carousel-indicators .active{
+    background-color: blue;
+    opacity: 1;
+}
+.health-and-appointment-section .health-section .box{
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.health-and-appointment-section .health-section .tool-tip{
+    position: relative;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+.health-and-appointment-section .health-section .tool-tip::before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: calc(100% - 4%);
+    left: calc(100% - 8%);
+    background-color: white;
+    transform: rotate(45deg);
+}
+.health-and-appointment-section .appointment-section .form-section{
+    padding: 25px 15px;
+    background-color: white;
+}
+.health-and-appointment-section .appointment-section .form-section .btn{
+    border: 1px solid gray;
+    background-color:rgb(249,249,249);
+}
+.health-and-appointment-section .appointment-section .form-section .row .form-control{
+    background-color:rgb(249,249,249) ;
+}
+.health-and-appointment-section .appointment-section .form-section .btn:hover{
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.footer-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:rgb(19,38,70);
+}
+.footer-section .medical-section .medical-text{
+  padding: 15px 0;
+  text-decoration: none;
+  color: rgba(200,220,220,.7); 
+  border-bottom: 1px solid white; 
+}
+.footer-section .medical-section a:hover{
+    color: white;
+    cursor: pointer; 
+}
+.footer-section .medical-section .medical-text .fa:hover{
+    color: white;
+    cursor: pointer; 
+}
+.footer-section .navigation-section p{
+    margin-bottom: 15px;
+    color: rgba(200,220,220,.7); 
+}
+.footer-section .navigation-section p:hover{
+    color: white;
+    cursor: pointer; 
+}
+.footer-section .navigation-section p::before{
+    content:">>";
+    margin-right: 10px;
+    display: inline-block;
+}
+.footer-section .popular-section .img{
+    cursor: pointer;
+}
+.footer-section .logo{
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-section .popular-section .img p{
+    color: rgba(200,220,220,.7);
+}
+.footer-section .popular-section .img:hover p{
+    color: white;
+}
+.footer-section .popular-section img{
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+}
+.copyright-section{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:rgb(14,26,48);
+}
+.copyright-section .row .medicalhealth-section{
+    color:rgba(200,220,220,.7) ;
+}
+.copyright-section .row .tabs-section{
+    display: flex;
+    justify-content: end;
+}
+.copyright-section .row .tabs-section a{
+    color: rgba(200,220,220,.7);
+    text-decoration: none;
+}
+.copyright-section .row .tabs-section a:hover{
+    color: white;
+    text-decoration: none;
+}
