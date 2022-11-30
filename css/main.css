@@ -3,10 +3,10 @@
         padding-bottom: 60px;
         background-color: rgb(247,247,247);
 }
-.header-section{
+.header-container{
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(179,177,178);
+    /* background-color: rgb(179,177,178); */
 }
 .btn-container a{
     color: white;
@@ -45,12 +45,20 @@
     opacity: unset;
     top: calc(100% - 50%);
 }
+.carousel-section .hr-line{
+    margin: 0;
+    color: white;
+    opacity: 1;
+}
 .carousel-section .carousel-control-left:hover{
     background-color: rgb(68,137,254);
 }
 .carousel-section .carousel-caption{
-    top: calc(100% - 70%);
+    top: calc(100% - 75%);
     text-align: unset;
+    right: unset;
+    left: unset;
+    bottom: unset;
 }
 .carousel-section .carousel-caption h1{
      font-family: 'Raleway', sans-serif;
@@ -59,7 +67,7 @@
 }
 .carousel-section .carousel-caption button{
     background-color: white;
-    /* margin-right: 10px; */
+    border-radius: 3px;
 }
 .carousel-section .carousel-caption button:hover{
     background-color:rgb(68,137,254);
@@ -74,13 +82,19 @@
         margin-bottom: 50px;
    }
 }
-.carousel-section .nav-container{
+.carousel-section .header-section{
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 11;
-    background-color:rgb(179,177,178);
-    border-top: 1px solid white;
+    background-color:rgba(0,0,0,.2);
+    /* border-top: 1px solid white; */
+}
+@media screen and (max-width:991px){
+.carousel-section .nav-container .navbar .navbar-collapse{
+    text-align: center;
+    background-color: rgb(68,137,254);
+}
 }
 .logo img{
     width: 35px;
@@ -104,17 +118,17 @@
     bottom: 165px;
 }
 .extra-div .container .emergency-case{
-    padding: 30px;
+    padding: 40px 20px;
     color: white;
     background-color: rgb(119,169,254);
 }
 .extra-div .container .doctors-timetable{
-    padding: 30px;
+    padding: 40px 20px;
     color: white;
     background-color: rgb(68,137,254);
 }
 .extra-div .container .opening-hours{
-    padding: 30px;
+    padding: 40px 20px;
     color: white;
     background-color: rgb(57,113,210);
 }
@@ -128,6 +142,7 @@
 .extra-div .container .row button{
     color: white;
     border: 1px solid white;
+    border-radius: 2px;
 }
 .extra-div .container .row button:hover{
     color: black;
@@ -144,12 +159,12 @@
     padding-bottom: 70px;
 }
 .medical-section .container .row .col-12 .box{
-    padding: 30px 20px;
-    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
+    padding: 35px 20px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2);
 }
 .medical-section .container .row .box .medical-icon{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border: 1px solid gray;
     border-radius: 50%;
     display: flex;
@@ -159,7 +174,7 @@
     margin-bottom: auto;
     font-size: 20px;
     color: blue;
-    margin-bottom: 15px;
+    margin-bottom: 23px;
 }
 /* .you-section{
     padding-top: 50px;
@@ -168,7 +183,7 @@
 } */
 .you-section .container .row .card{
     border-radius: unset;
-    box-shadow: 0 0 9px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
 }
 .you-section .container .row .card .card-img{
     padding: 10px 20px 0px;
