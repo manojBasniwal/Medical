@@ -197,6 +197,7 @@
 }
 .you-section .container .row .card .card-body .btn{
     color: rgb(57,113,210);
+    border-radius: 3px;
     border: 1px solid rgb(57,113,210);
 }
 .you-section .container .row .card .card-body .btn:hover{
@@ -206,12 +207,12 @@
 .you-section .carousel-indicators button{
     width: 10px;
     height: 10px;
-    border: 2px solid blue;
+    border: 2px solid rgb(57,113,210);
     border-radius: 50%;
     opacity: 1;
 }
 .you-section .carousel-indicators .active{
-    background-color: blue;
+    background-color: rgb(57,113,210);
     opacity: 1;
 }
 .score-card-section{
@@ -236,6 +237,7 @@
 .our-section .container .departments-section .departments-text .btn{
     color: white;
     border: 1px solid white;
+    border-radius: 3px;
 }
 .our-section .container .departments-section .departments-text p{
     margin: unset;
@@ -300,12 +302,12 @@
 .customer-section .carousel-indicators button{
     width: 10px;
     height: 10px;
-    border: 2px solid blue;
+    border: 2px solid rgb(57,113,210);
     border-radius: 50%;
     opacity: 1;
 }
 .customer-section .carousel-indicators .active{
-    background-color: blue;
+    background-color: rgb(57,113,210);
     opacity: 1;
 }
 .medical-news{
@@ -341,15 +343,15 @@
 .medical-news .carousel-indicators button{
     width: 10px;
     height: 10px;
-    border: 2px solid blue;
+    border: 2px solid rgb(57,113,210);
     border-radius: 50%;
     opacity: 1;
 }
 .medical-news .carousel-indicators .active{
-    background-color: blue;
+    background-color: rgb(57,113,210);
     opacity: 1;
 }
-.health-and-appointment-section .health-section .box{
+/* .health-and-appointment-section .health-section .box{
     padding: 10px 15px;
     margin-bottom: 25px;
     font-weight: bold;
@@ -357,14 +359,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.health-and-appointment-section .health-section .tool-tip{
+} */
+/* .health-and-appointment-section .health-section .tool-tip{
     position: relative;
     padding: 15px;
     margin-bottom: 25px;
     background-color: white;
-}
-.health-and-appointment-section .health-section .tool-tip::before{
+} */
+/* .health-and-appointment-section .health-section .tool-tip::before{
     content: "";
     display: inline-block;
     width: 15px;
@@ -374,22 +376,35 @@
     left: calc(100% - 8%);
     background-color: white;
     transform: rotate(45deg);
-}
+} */
 .health-and-appointment-section .appointment-section .form-section{
     padding: 25px 15px;
     background-color: white;
 }
-.health-and-appointment-section .appointment-section .form-section .btn{
+.health-and-appointment-section .appointment-section .form-section .sumit-btn{
     border: 1px solid gray;
+    border-radius: 3px;
+    color: dimgray;
+    background-color:rgb(249,249,249);
+}
+.health-and-appointment-section .appointment-section .form-section .dropdown .btn{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 100%;
+    color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color:rgb(249,249,249);
 }
 .health-and-appointment-section .appointment-section .form-section .row .form-control{
+    border-radius: 3px;
+    color: dimgray;
     background-color:rgb(249,249,249) ;
 }
-.health-and-appointment-section .appointment-section .form-section .btn:hover{
+.health-and-appointment-section .appointment-section .form-section .sumit-btn:hover{
     color: white;
-    background-color: blue;
-    border: none;
+    background-color: rgb(57,113,210);
 }
 .footer-section{
     padding-top: 50px;
@@ -418,11 +433,11 @@
     color: white;
     cursor: pointer; 
 }
-.footer-section .navigation-section p::before{
+/* .footer-section .navigation-section p::before{
     content:">>";
     margin-right: 10px;
     display: inline-block;
-}
+} */
 .footer-section .popular-section .img{
     cursor: pointer;
 }
