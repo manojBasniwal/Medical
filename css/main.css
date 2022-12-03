@@ -72,6 +72,7 @@
 .carousel-section .carousel-caption button:hover{
     background-color:rgb(68,137,254);
     color: white;
+    box-shadow: 0 0 8px 2px rgba(0,0,0,.25);
 }
 @media screen and (max-width:768px){
     .carousel-section .carousel-caption{
@@ -202,6 +203,7 @@
 }
 .you-section .container .row .card .card-body .btn:hover{
     color: white;
+    box-shadow: 0 0 8px 3px rgba(0,0,0,.30);
     background-color: rgb(57,113,210);
 }
 .you-section .carousel-indicators button{
@@ -404,7 +406,16 @@
 }
 .health-and-appointment-section .appointment-section .form-section .sumit-btn:hover{
     color: white;
+    box-shadow: 0 0 8px 3px rgba(0,0,0,.30);
     background-color: rgb(57,113,210);
+}
+.health-and-appointment-section .health-section .accordion-header .accordion-button:not(.collapsed){
+    color: white;
+    border-radius: unset;
+    background-color: blue;
+}
+.health-and-appointment-section .health-section .accordion-button{
+    border-width: none!important;
 }
 .footer-section{
     padding-top: 50px;
