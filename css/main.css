@@ -412,10 +412,7 @@
 .health-and-appointment-section .health-section .accordion-header .accordion-button:not(.collapsed){
     color: white;
     border-radius: unset;
-    background-color: blue;
-}
-.health-and-appointment-section .health-section .accordion-button{
-    border-width: none!important;
+    background-color: rgb(57,113,210);
 }
 .footer-section{
     padding-top: 50px;
