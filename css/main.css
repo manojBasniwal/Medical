@@ -353,7 +353,7 @@
     background-color: rgb(57,113,210);
     opacity: 1;
 }
-/* .health-and-appointment-section .health-section .box{
+.health-and-appointment-section .health-section .box{
     padding: 10px 15px;
     margin-bottom: 25px;
     font-weight: bold;
@@ -361,14 +361,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
-/* .health-and-appointment-section .health-section .tool-tip{
+}
+.health-and-appointment-section .health-section .tool-tip{
     position: relative;
     padding: 15px;
     margin-bottom: 25px;
     background-color: white;
-} */
-/* .health-and-appointment-section .health-section .tool-tip::before{
+}
+.health-and-appointment-section .health-section .tool-tip::before{
     content: "";
     display: inline-block;
     width: 15px;
@@ -378,7 +378,7 @@
     left: calc(100% - 8%);
     background-color: white;
     transform: rotate(45deg);
-} */
+}
 .health-and-appointment-section .appointment-section .form-section{
     padding: 25px 15px;
     background-color: white;
@@ -413,6 +413,22 @@
     color: white;
     border-radius: unset;
     background-color: rgb(57,113,210);
+}
+.health-and-appointment-section .health-section .accordion-header .accordion-button:after{
+    display: none;
+}
+.health-and-appointment-section .health-section .card .card-header{
+    background-color: blue;
+}
+.health-and-appointment-section .health-section .card .card-header .btn{
+    width: 100%;
+    padding-left: unset;
+    padding-right: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    
 }
 .footer-section{
     padding-top: 50px;
