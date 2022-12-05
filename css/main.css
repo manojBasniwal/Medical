@@ -43,6 +43,7 @@
     padding: 13px 10px;
     opacity: unset;
     top: calc(100% - 50%);
+    background-color: rgba(0, 0, 0, .3);
 }
 .carousel-section .hr-line{
     margin: 0;
