@@ -418,8 +418,17 @@
     border-radius: unset;
     background-color: rgb(57,113,210);
 }
-.health-and-appointment-section .health-section .accordion-header .accordion-button:after{
+.health-and-appointment-section .health-section .accordion-header .accordion-button::after{
     display: none;
+}
+.health-and-appointment-section .health-section .accordion-header .accordion-button .fa:not(.collapsed)::before{
+    content: "\2212";
+    display: inline-block;
+    /* color: white; */
+}
+.health-and-appointment-section .health-section .accordion-header .accordion-button.collapsed .fa::before{
+    content: "\f067";
+    display: inline-block;
 }
 .health-and-appointment-section .health-section .card .card-header{
     background-color: blue;
