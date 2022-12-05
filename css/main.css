@@ -40,7 +40,6 @@
 .carousel-section .carousel-control-left{
     width: 35px;
     height: 45px;
-    background-color: rgb(179,177,178);
     padding: 13px 10px;
     opacity: unset;
     top: calc(100% - 50%);
@@ -152,12 +151,16 @@
 @media screen and (max-width:768px){
     .extra-div .container .row{
         bottom: 0;
-        top: 30px;
+        /* top: 30px; */
     } 
 }
 .medical-section .container .row{
     padding-top: 40px;
     padding-bottom: 70px;
+}
+.medical-section .container .row .medical-icon .fa{
+    font-size: 28px;
+    color:rgb(68,137,254);
 }
 .medical-section .container .row .col-12 .box{
     padding: 35px 20px;
