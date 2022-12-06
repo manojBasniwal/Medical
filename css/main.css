@@ -3,6 +3,10 @@
         padding-bottom: 60px;
         background-color: rgb(247,247,247);
 }
+.container .font-family{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
 .header-container{
     padding-top: 5px;
     padding-bottom: 5px;
