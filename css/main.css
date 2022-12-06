@@ -98,7 +98,7 @@
 @media screen and (max-width:991px){
 .carousel-section .nav-container .navbar .navbar-collapse{
     text-align: center;
-    background-color: rgb(68,137,254);
+    background-color: darkgray;
 }
 }
 .logo img{
