@@ -10,7 +10,6 @@
 .header-container{
     padding-top: 5px;
     padding-bottom: 5px;
-    /* background-color: rgb(179,177,178); */
 }
 .btn-container a{
     color: white;
@@ -93,7 +92,6 @@
     width: 100%;
     z-index: 11;
     background-color:rgba(0,0,0,.2);
-    /* border-top: 1px solid white; */
 }
 @media screen and (max-width:991px){
 .carousel-section .nav-container .navbar .navbar-collapse{
@@ -137,7 +135,7 @@
     color: white;
     background-color: rgb(57,113,210);
 }
-.extra-div .container .opening-hours div{
+.extra-div .container .opening-hours li{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid white;
@@ -156,7 +154,6 @@
 @media screen and (max-width:768px){
     .extra-div .container .row{
         bottom: 0;
-        /* top: 30px; */
     } 
 }
 .medical-section .container .row{
@@ -185,11 +182,6 @@
     color: blue;
     margin-bottom: 23px;
 }
-/* .you-section{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: rgb(247,247,247);
-} */
 .you-section .container .row .card{
     border-radius: unset;
     box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
@@ -276,12 +268,6 @@
 .our-section .container .our-carousel-section .our-carousel-heading button:hover{
     background-color: rgb(68,137,254);
 }
-/* .customer-section .container .carousel-item .row .box-img{
-    width: 60px;
-    height: 60px;
-    border: 1px solid red;
-    border-radius: 50%;
-} */
 .customer-section .container .carousel-item .row .box{
     background-color: white;
     margin-top: 60px;
@@ -340,9 +326,6 @@
     padding-bottom: 15px;
     border-bottom: 1px solid gray;
 }
-/* .medical-news .container .carousel-item .row .card .card-body div{
-    text-decoration: none;
-} */
 .medical-news .container .carousel-item .row .card .card-body div img{
     width: 35px;
     height: 35px;
@@ -428,7 +411,6 @@
 .health-and-appointment-section .health-section .accordion-header .accordion-button .fa:not(.collapsed)::before{
     content: "\2212";
     display: inline-block;
-    /* color: white; */
 }
 .health-and-appointment-section .health-section .accordion-header .accordion-button.collapsed .fa::before{
     content: "\f067";
@@ -474,11 +456,6 @@
     color: white;
     cursor: pointer; 
 }
-/* .footer-section .navigation-section p::before{
-    content:">>";
-    margin-right: 10px;
-    display: inline-block;
-} */
 .footer-section .popular-section .img{
     cursor: pointer;
 }
