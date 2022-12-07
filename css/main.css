@@ -24,6 +24,9 @@
     margin-left: 20px;
     margin-right: 10px;
 }
+.icon-container i:hover{
+    color:rgb(68,137,254) ;
+}
 @media screen and (max-width:576px){
     .btn-container{
         margin-bottom: 5px;
